@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_TwoSum", "01_TwoSum\01_TwoSum.csproj", "{3B137FCF-EB07-465D-9E8F-9350F216ECD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_TwoSum", "01_TwoSum\01_TwoSum.csproj", "{3B137FCF-EB07-465D-9E8F-9350F216ECD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week01", "Week01", "{69C67B5D-70CE-400C-9C60-0C67D7A0DBF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ValidParentheses", "02_ValidParentheses\02_ValidParentheses.csproj", "{C2887920-4072-4C48-AE2B-1DEFE5ED01FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ValidParentheses", "02_ValidParentheses\02_ValidParentheses.csproj", "{C2887920-4072-4C48-AE2B-1DEFE5ED01FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_MergeTwoSortedLists", "03_MergeTwoSortedLists\03_MergeTwoSortedLists.csproj", "{23310B73-3C9B-4BFB-BEBA-3EF4B27FC4AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_MergeTwoSortedLists", "03_MergeTwoSortedLists\03_MergeTwoSortedLists.csproj", "{23310B73-3C9B-4BFB-BEBA-3EF4B27FC4AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_BestTimeToBuyAndSellStock", "04_BestTimeToBuyAndSellStock\04_BestTimeToBuyAndSellStock.csproj", "{1E29D905-F339-43C0-B718-B43AD39F3E2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_BestTimeToBuyAndSellStock", "04_BestTimeToBuyAndSellStock\04_BestTimeToBuyAndSellStock.csproj", "{1E29D905-F339-43C0-B718-B43AD39F3E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ValidPalindrome", "05_ValidPalindrome\05_ValidPalindrome.csproj", "{D8D7150F-9B12-4275-897A-54C36F4675A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ValidPalindrome", "05_ValidPalindrome\05_ValidPalindrome.csproj", "{D8D7150F-9B12-4275-897A-54C36F4675A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_InvertBinaryTree", "06_InvertBinaryTree\06_InvertBinaryTree.csproj", "{A2823405-E890-4600-9E23-A3A171C9A879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_InvertBinaryTree", "06_InvertBinaryTree\06_InvertBinaryTree.csproj", "{A2823405-E890-4600-9E23-A3A171C9A879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blind75Lib", "Blind75Lib\Blind75Lib.csproj", "{C5220DD1-D837-4EC9-B9EA-449E45F71FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blind75Lib", "Blind75Lib\Blind75Lib.csproj", "{C5220DD1-D837-4EC9-B9EA-449E45F71FE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_ValidAnagram", "07_ValidAnagram\07_ValidAnagram.csproj", "{82B5254F-8883-4EEB-9257-E06BC8E86C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_BinarySearch", "08_BinarySearch\08_BinarySearch.csproj", "{CBBC8DFA-27EE-40F0-85BA-E2BDE77B3ADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,14 @@ Global
 		{C5220DD1-D837-4EC9-B9EA-449E45F71FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5220DD1-D837-4EC9-B9EA-449E45F71FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5220DD1-D837-4EC9-B9EA-449E45F71FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B5254F-8883-4EEB-9257-E06BC8E86C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B5254F-8883-4EEB-9257-E06BC8E86C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B5254F-8883-4EEB-9257-E06BC8E86C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B5254F-8883-4EEB-9257-E06BC8E86C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBC8DFA-27EE-40F0-85BA-E2BDE77B3ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBC8DFA-27EE-40F0-85BA-E2BDE77B3ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBC8DFA-27EE-40F0-85BA-E2BDE77B3ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBC8DFA-27EE-40F0-85BA-E2BDE77B3ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +76,8 @@ Global
 		{1E29D905-F339-43C0-B718-B43AD39F3E2B} = {69C67B5D-70CE-400C-9C60-0C67D7A0DBF7}
 		{D8D7150F-9B12-4275-897A-54C36F4675A0} = {69C67B5D-70CE-400C-9C60-0C67D7A0DBF7}
 		{A2823405-E890-4600-9E23-A3A171C9A879} = {69C67B5D-70CE-400C-9C60-0C67D7A0DBF7}
+		{82B5254F-8883-4EEB-9257-E06BC8E86C20} = {69C67B5D-70CE-400C-9C60-0C67D7A0DBF7}
+		{CBBC8DFA-27EE-40F0-85BA-E2BDE77B3ADC} = {69C67B5D-70CE-400C-9C60-0C67D7A0DBF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0264F5EB-5C11-49CF-9126-CAFB37242B47}

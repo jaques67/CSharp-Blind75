@@ -12,7 +12,7 @@ namespace _06_InvertBinaryTree
 {
     public class Solution
     {
-        public TreeNode InvertTree(TreeNode root)
+        public TreeNode InvertTree(TreeNode root)  // 92ms
         {
             if (root == null) return root;
 
