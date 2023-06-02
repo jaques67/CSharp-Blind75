@@ -11,7 +11,7 @@ namespace _10_LowestCommonAncestorOfABST
 
         public class Solution
         {
-            public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
+            public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)  // 105ms
             {
                 if (root.val < p.val && root.val < q.val)
                 {
