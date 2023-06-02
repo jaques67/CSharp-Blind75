@@ -10,7 +10,7 @@ namespace Blind75Lib
 
     public class BuildTree
     {
-        public static TreeNode BuildTreeNodeTree(List<int> items)
+        public static TreeNode BuildTreeNodeTree(List<int?> items)
         {
             int n = items.Count;
 
@@ -20,9 +20,10 @@ namespace Blind75Lib
             {
                 if (n <= index || items[index] == null) return null;
 
-                TreeNode node = new TreeNode(items[index]);
+                TreeNode node = new TreeNode((int)items[index]);
                 node.left = Inner(2 * index + 1);
                 node.right = Inner(2 * index + 2);
+
                 return node;
             }
             return Inner();
