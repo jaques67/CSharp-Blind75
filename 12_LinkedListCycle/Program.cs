@@ -12,7 +12,7 @@ namespace _12_LinkedListCycle
     {
         public class Solution
         {
-            public bool HasCycle(ListNode head)
+            public bool HasCycle(ListNode head)     // 104ms
             {
                 if (head == null || head.next == null) return false;
                 if (head == head.next) return true;
